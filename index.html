@@ -101,34 +101,126 @@
         <textarea id="jsonInputField" type="text" style="float:right; width: 100%; height: 100%;" oninput="doIt()">
 {
   "name": "Vis",
-  "uncertainty": 7,
+  "uncertainty": 5,
   "children": [
     {
       "name": "Topic1",
-      "uncertainty": 10,
-      "size": 35,
+      "uncertainty": 5,
+      "size": 10,
       "children": [
         {
-          "name": "this",
-          "uncertainty": 10,
-          "size": 20
+          "name": "Post1",
+          "uncertainty": 5,
+          "size": 30,
+          "children": [
+            {
+              "name": "Post1",
+              "uncertainty": 5,
+              "size": 15
+            },
+            {
+              "name": "Post3",
+              "uncertainty": 5,
+              "size": 30
+            },
+            {
+              "name": "Post4",
+              "uncertainty": 5,
+              "size": 35
+            }
+          ]
         },
         {
-          "name": "this2",
-          "uncertainty": 10,
-          "size": 20
+          "name": "Post2",
+          "uncertainty": 5,
+          "size": 90,
+          "children": [
+            {
+              "name": "Post2",
+              "uncertainty": 5,
+              "size": 40
+            },
+            {
+              "name": "Post3",
+              "uncertainty": 5,
+              "size": 30
+            },
+            {
+              "name": "Post1",
+              "uncertainty": 5,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Post3",
+          "uncertainty": 5,
+          "size": 90,
+          "children": [
+            {
+              "name": "Post3",
+              "uncertainty": 5,
+              "size": 40
+            },
+            {
+              "name": "Post1",
+              "uncertainty": 5,
+              "size": 30
+            }
+          ]
+        },
+        {
+          "name": "Post4",
+          "uncertainty": 5,
+          "size": 90,
+          "children": [
+            {
+              "name": "Post4",
+              "uncertainty": 5,
+              "size": 40
+            },
+            {
+              "name": "Post1",
+              "uncertainty": 5,
+              "size": 30
+            }
+          ]
         }
       ]
     },
     {
       "name": "Topic2",
-      "uncertainty": 10,
-      "size": 50
+      "uncertainty": 5,
+      "size": 1,
+      "children": [
+        {
+          "name": "Post1",
+          "uncertainty": 5,
+          "size": 40
+        },
+        {
+          "name": "Post2",
+          "uncertainty": 5,
+          "size": 60
+        }
+      ]
     },
     {
-      "name": "Topic2",
-      "uncertainty": 10,
-      "size": 50
+      "name": "Topic3",
+      "uncertainty": 5,
+      "size": 1,
+      "children": [
+        {
+          "name": "Post1",
+          "uncertainty": 5,
+          "size": 25
+        },
+        {
+          "name": "Post2",
+          "uncertainty": 5,
+          "size": 45
+        }
+      ]
     }
   ]
 }
